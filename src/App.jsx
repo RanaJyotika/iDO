@@ -113,7 +113,7 @@ function App() {
                     key={item.id}
                     className="todo flex  justify-between items-center border p-1.5 my-2 rounded-md"
                   >
-                    <div className="flex gap-2 ">
+                    <div className="flex gap-2  ">
                       <input
                         className="mx-1 my-2 w-[10%] h-[30%]"
                         onChange={handleCheckbox}
@@ -121,12 +121,12 @@ function App() {
                         checked={item.isCompleted}
                         name={item.id}
                       />
-                      <div className={`w-[50%] ${item.isCompleted ? "line-through" : ""}`}>
+                      <div className={`w-[70%] ${item.isCompleted ? "line-through" : ""}`}>
                         {item.todo}
                       </div>
                     </div>
 
-                    <div className="buttons  justify-center align-middle mx-1 flex h-full w-[30%] ">
+                    <div className="buttons  justify-center align-middle mx-1 flex h-full w-[20%] ">
                       <button
                         onClick={(e) => handleEdit(e, item.id)}
                         className="border rounded-xl py-1 p-3 text-md text-white font-semibold bg-violet-800 hover:bg-violet-950 border-violet-800 mx-1"
