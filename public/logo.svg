@@ -1,0 +1,21 @@
+<svg width="500px" height="500px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Violet Gradient for Tick Mark -->
+    <linearGradient id="gradient" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a0dad"/> <!-- Dark Violet -->
+      <stop offset="100%" stop-color="#8a2be2"/> <!-- Purple -->
+    </linearGradient>
+  </defs>
+
+  <!-- Soft Pink Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="#ffe4e6"/> <!-- Tailwind pink-100 -->
+  
+  <rect width="48" height="48" fill="white" fill-opacity="0.01"/>
+
+  <!-- Violet Gradient Tick Mark -->
+  <path d="M14 24L15.25 25.25M44 14L24 34L22.75 32.75" 
+    stroke="url(#gradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <path d="M4 24L14 34L34 14" 
+    stroke="url(#gradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
