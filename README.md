@@ -1,32 +1,23 @@
-📝 React To-Do App
+# 📝 React To-Do App  
 A simple and efficient to-do list app built with React.
 
-🚀 Live Demo
-🔗 View Deployed App on Netlify
+## 🚀 Live Demo  
+🔗 [View Deployed App on Netlify](https://ido-taskmanager.netlify.app/)
 
-📌 Features
-✅ Add, edit, and delete tasks
-✅ Mark tasks as completed
-✅ Responsive design
-✅ Local storage support
+## 📌 Features  
+✅ Add, edit, and delete tasks  
+✅ Mark tasks as completed  
+✅ Responsive design  
+✅ Local storage support  
 
-🛠 Tech Stack
-React.js
+## 🛠 Tech Stack  
+- **React.js**  
+- **Tailwind CSS**  
+- **Netlify** (for deployment)  
 
-Tailwind CSS
+## 🏗 Installation & Setup  
 
-Netlify (for deployment)
+### 1️⃣ Clone the repository:  
 
-🏗 Installation & Setup
-
-1️⃣ Clone the repository:
 git clone https://github.com/RanaJyotika/iDO.git
 cd iDO
-
-2️⃣ Install dependencies:
-npm install
-
-3️⃣ Run the development server:
-npm start
-
-
